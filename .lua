@@ -140,9 +140,11 @@ end
 -- ==========================================
 -- NETWORK ACTIONS
 -- ==========================================
-local function unequipAll() 
+local function unequipAll()
     print("Unequipping all units...")
+    return true
 end
+
 
 local function sellUnit(uuid)
     return pcall(function()
